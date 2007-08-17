@@ -7,7 +7,7 @@ First install Eclipse 3.3 or later. Eclipse 3.2 might work, but I haven't tested
 
 Import your sources as an Eclipse project. You probably want to install the Eclipse CDT tools. Assuming you weren't already using CDT, you probably want to create a "Standard Make" project and turn off the CDT build and indexing features.
 
-Run your program under Chronicle to get a trace to analyze: see [http://code.google.com/p/chronicle-recorder/w/edit/BuildNotes Chronicle instructions].
+Run your program under Chronicle to get a trace to analyze: see [http://code.google.com/p/chronicle-recorder/wiki/BuildNotes Chronicle instructions].
 
 Create a script that runs "chronicle-query --db <your database name>". You can wrap it in ssh if you want to do remote debugging; all we require is that the script's standard input and standard output go to/from the right place.
 
