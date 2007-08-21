@@ -11,6 +11,8 @@ Run your program under Chronicle to get a trace to analyze: see [http://code.goo
 
 Create a script that runs "chronicle-query --db <your database name>". You can wrap it in ssh if you want to do remote debugging; all we require is that the script's standard input and standard output go to/from the right place.
 
+Install the GEF plugins: [http://download.eclipse.org/tools/gef/downloads/].
+
 Install the Chronomancer plugin. The easiest way is to download the zip file and unzip it in the same directory as the Eclipse binary so it drops directly into the plugins directory. If you want to hack on Chronomancer, pull from this Subversion repository instead and use the Eclipse PDE tools to build it.
 
 Run Eclipse with Chronomancer installed.
